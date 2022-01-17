@@ -1,20 +1,27 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "Debug",
-            "type": "python",
-            "request": "launch",
-            "program": "app/tasks/checker.py",
-            // "program": "app/tasks/contact.py",
-            // "program": "run.py",
-            "env": {
-                "PYTHONPATH": "${workspaceRoot}"
-            },
-            "console": "integratedTerminal",
-        }
-    ]
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "shell",
+      "type": "python",
+      "request": "launch",
+      "module": "flask",
+      "args": ["shell"]
+    },
+    {
+      "name": "Debug",
+      "type": "python",
+      "request": "launch",
+      "program": "app/tasks/checker.py",
+      // "program": "app/tasks/contact.py",
+      // "program": "run.py",
+      "env": {
+        "PYTHONPATH": "${workspaceRoot}"
+      },
+      "console": "integratedTerminal"
+    }
+  ]
 }

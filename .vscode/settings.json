@@ -8,11 +8,14 @@
     "dotenv",
     "finalizer",
     "noqa",
+    "psycopg",
     "pydantic",
     "pytest",
     "skipif",
     "starlette",
-    "uvicorn"
+    "uvicorn",
+    "werkzeug",
+    "wtforms"
   ],
   "python.testing.unittestEnabled": false,
   "python.testing.nosetestsEnabled": false,
