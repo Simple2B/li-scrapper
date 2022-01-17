@@ -21,6 +21,7 @@ class Database:
         self.cur = None
 
         self.open_connection_to_db()
+        assert self.conn
         self.create_cursor()
 
         self.create_linked_in_profiles_table()
@@ -35,7 +36,7 @@ class Database:
         except Exception as error:
             log(
                 log.ERROR,
-                "Error has occured during connection to database: [%s]",
+                "Error has occurred during connection to database: [%s]",
                 str(error),
             )
 

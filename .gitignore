@@ -131,3 +131,4 @@ dmypy.json
 .pyre/
 
 database-test.sqlite3
+.DS_Store

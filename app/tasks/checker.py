@@ -42,5 +42,5 @@ def check_contact():
                 scraper.check_contact_info()
 
 
-# if __name__ == "__main__":
-#     check_contact()
+if __name__ == "__main__":
+    check_contact()

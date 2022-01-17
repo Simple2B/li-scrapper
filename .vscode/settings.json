@@ -1,28 +1,27 @@
 {
-    "editor.formatOnSave": true,
-    "python.linting.enabled": true,
-    "cSpell.words": [
-        "aerich",
-        "asyncio",
-        "bcrypt",
-        "finalizer",
-        "noqa",
-        "pydantic",
-        "pytest",
-        "skipif",
-        "starlette",
-        "uvicorn"
-    ],
-    "python.testing.unittestEnabled": false,
-    "python.testing.nosetestsEnabled": false,
-    "python.testing.pytestEnabled": true,
-    "pythonTestExplorer.testFramework": "pytest",
-    "python.testing.pytestArgs": [
-        "tests"
-    ],
-    //jedi server https://stackoverflow.com/questions/55431119/vs-code-analyzing-in-the-background
-    "python.jediEnabled": true,
-    "python.languageServer": "Jedi",
-    "python.linting.pylintEnabled": false,
-    "python.linting.flake8Enabled": true
+  "editor.formatOnSave": true,
+  "python.linting.enabled": true,
+  "cSpell.words": [
+    "aerich",
+    "asyncio",
+    "bcrypt",
+    "dotenv",
+    "finalizer",
+    "noqa",
+    "pydantic",
+    "pytest",
+    "skipif",
+    "starlette",
+    "uvicorn"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.nosetestsEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "pythonTestExplorer.testFramework": "pytest",
+  "python.testing.pytestArgs": ["tests"],
+  //jedi server https://stackoverflow.com/questions/55431119/vs-code-analyzing-in-the-background
+  "python.jediEnabled": true,
+  "python.languageServer": "Jedi",
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true
 }
